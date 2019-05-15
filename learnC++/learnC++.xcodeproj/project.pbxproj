@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0005936B227B2ACD00E4375A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0005936A227B2ACD00E4375A /* main.cpp */; };
 		00D5EDE6228183AF006D3EC8 /* Test2018.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00D5EDE4228183AF006D3EC8 /* Test2018.cpp */; };
+		6638C5DB228BC19C0066EF10 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6638C5D9228BC19C0066EF10 /* BinaryTree.cpp */; };
+		6638C5DE228BC4920066EF10 /* Inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6638C5DC228BC4920066EF10 /* Inheritance.cpp */; };
+		6638C5E1228BCAB70066EF10 /* 20181.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6638C5DF228BCAB70066EF10 /* 20181.cpp */; };
+		6638C5E4228BCB070066EF10 /* 20151.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6638C5E2228BCB070066EF10 /* 20151.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		0005936A227B2ACD00E4375A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		00D5EDE4228183AF006D3EC8 /* Test2018.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test2018.cpp; sourceTree = "<group>"; };
 		00D5EDE5228183AF006D3EC8 /* Test2018.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test2018.hpp; sourceTree = "<group>"; };
+		6638C5D9228BC19C0066EF10 /* BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
+		6638C5DA228BC19C0066EF10 /* BinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
+		6638C5DC228BC4920066EF10 /* Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance.cpp; sourceTree = "<group>"; };
+		6638C5DD228BC4920066EF10 /* Inheritance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Inheritance.hpp; sourceTree = "<group>"; };
+		6638C5DF228BCAB70066EF10 /* 20181.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20181.cpp; sourceTree = "<group>"; };
+		6638C5E0228BCAB70066EF10 /* 20181.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 20181.hpp; sourceTree = "<group>"; };
+		6638C5E2228BCB070066EF10 /* 20151.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20151.cpp; sourceTree = "<group>"; };
+		6638C5E3228BCB070066EF10 /* 20151.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 20151.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				0005936A227B2ACD00E4375A /* main.cpp */,
+				6638C5D9228BC19C0066EF10 /* BinaryTree.cpp */,
+				6638C5DA228BC19C0066EF10 /* BinaryTree.hpp */,
 				00D5EDE5228183AF006D3EC8 /* Test2018.hpp */,
 				00D5EDE4228183AF006D3EC8 /* Test2018.cpp */,
+				6638C5DC228BC4920066EF10 /* Inheritance.cpp */,
+				6638C5DD228BC4920066EF10 /* Inheritance.hpp */,
+				6638C5DF228BCAB70066EF10 /* 20181.cpp */,
+				6638C5E0228BCAB70066EF10 /* 20181.hpp */,
+				6638C5E2228BCB070066EF10 /* 20151.cpp */,
+				6638C5E3228BCB070066EF10 /* 20151.hpp */,
 			);
 			path = "learnC++";
 			sourceTree = "<group>";
@@ -124,7 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00D5EDE6228183AF006D3EC8 /* Test2018.cpp in Sources */,
+				6638C5E4228BCB070066EF10 /* 20151.cpp in Sources */,
 				0005936B227B2ACD00E4375A /* main.cpp in Sources */,
+				6638C5DE228BC4920066EF10 /* Inheritance.cpp in Sources */,
+				6638C5E1228BCAB70066EF10 /* 20181.cpp in Sources */,
+				6638C5DB228BC19C0066EF10 /* BinaryTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +270,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KFTJLANT85;
+				DEVELOPMENT_TEAM = XB884E28ZD;
+				GCC_NO_COMMON_BLOCKS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -255,7 +280,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KFTJLANT85;
+				DEVELOPMENT_TEAM = XB884E28ZD;
+				GCC_NO_COMMON_BLOCKS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
